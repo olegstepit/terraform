@@ -2,6 +2,8 @@
 //  groovy Jenkinsfile
 properties([disableConcurrentBuilds()])\
 
+ 
+
 pipeline  {
         agent { 
            label ''
@@ -34,4 +36,4 @@ pipeline  {
           }
        }
     }
-}
+} 
